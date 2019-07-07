@@ -1,4 +1,4 @@
-#!/urs/bin/env python
+#!/usr/bin/env python
 # -*_ coding: utf-8 -*-
 
 import sys
@@ -164,10 +164,10 @@ for strPostID in arrBlogPost:
     strHTML4Post = '''
         <html>
             <head>
-                <meta http-equiv=""Content-Type"" content=""text/html; charset=utf-8"" />
+                <meta http-equiv="Content-Type" content="text/html"; charset="utf-8" />
                 <title>{strTitle}</title>
-                <link href=""http://simg.sinajs.cn/blog7style/css/conf/blog/article.css""
-                      type=""text/css"" rel=""stylesheet"" />
+                <link href="http://simg.sinajs.cn/blog7style/css/conf/blog/article.css"
+                      type="text/css" rel="stylesheet" />
             </head>
             <body>
                 <h2>{strTitle}</h2>
@@ -187,7 +187,7 @@ strTimestamp = str(strftime("%Y-%m-%d %H:%M:%S"))
 strHTMLBody = '''
     <html>
         <head>
-            <meta http-equiv=""Content-Type"" content=""text/html; charset=utf-8"" />
+            <meta http-equiv="Content-Type" content="text/html"; charset="utf-8" />
             <title>{name} 博客文章汇总</title>
         </head>
         <body>
